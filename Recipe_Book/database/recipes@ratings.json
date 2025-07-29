@@ -1,0 +1,25 @@
+{
+    "options": {
+        "schema": "recipes",
+        "table": "ratings",
+        "columns": [
+            "recipe_id",
+            "rating"
+        ],
+        "defaultCharacterSet": "utf8mb4",
+        "fieldsTerminatedBy": "\t",
+        "fieldsEnclosedBy": "",
+        "fieldsOptionallyEnclosed": false,
+        "fieldsEscapedBy": "\\",
+        "linesTerminatedBy": "\n"
+    },
+    "triggers": [],
+    "includesData": true,
+    "includesDdl": true,
+    "extension": "tsv.zst",
+    "chunking": true,
+    "compression": "zstd",
+    "primaryIndex": [],
+    "partitions": [],
+    "basenames": {}
+}

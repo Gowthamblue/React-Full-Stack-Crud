@@ -1,0 +1,22 @@
+{
+    "schema": "recipes",
+    "includesDdl": true,
+    "includesViewsDdl": true,
+    "includesData": true,
+    "multifileDdl": false,
+    "tables": [
+        "ratings",
+        "recipes"
+    ],
+    "views": [],
+    "events": [],
+    "functions": [],
+    "functionDependencies": {},
+    "procedures": [],
+    "procedureDependencies": {},
+    "libraries": [],
+    "basenames": {
+        "ratings": "recipes@ratings",
+        "recipes": "recipes@recipes"
+    }
+}
